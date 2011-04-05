@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-msm/lte/smd_rpc_sym.c := perl /home/utkanos/android/kernels/android_htc_mecha_kernel_6slot/arch/arm/mach-msm/lte/mkrpcsym.pl arch/arm/mach-msm/lte/smd_rpc_sym arch/arm/mach-msm/lte/smd_rpc_sym.c

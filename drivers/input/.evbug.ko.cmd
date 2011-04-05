@@ -1,0 +1,1 @@
+cmd_drivers/input/evbug.ko := /home/utkanos/android/ginger/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r  -T /home/utkanos/android/kernels/android_htc_mecha_kernel_6slot/scripts/module-common.lds --build-id -o drivers/input/evbug.ko drivers/input/evbug.o drivers/input/evbug.mod.o
