@@ -100,7 +100,7 @@ static struct clkctl_acpu_speed acpu_freq_tbl[] = {
 	{ 576000, PLL_3,    5, 1,  153600, 950, VDD_RAW(950) },
 	{ 768000, PLL_1,    2, 0,  153600, 1025, VDD_RAW(1025) },
 	/* ACPU >= 806.4MHz requires MSMC1 @ 1.2V. Voting for
-	 * AXI @ 192MHz accomplishes this implicitly. 806.4MHz
+	 * AXI  @ 192MHz accomplishes this implicitly. 806.4MHz
 	 * is updated to 1024MHz at runtime for QSD8x55. */
 	{ 806400, PLL_2,    3, 0,  192000, 1100, VDD_RAW(1100) },
 	{ 0 }
